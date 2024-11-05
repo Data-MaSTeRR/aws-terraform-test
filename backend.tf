@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "fastcampus-my-terraform"
+    bucket         = "fastcampus-hw-terraform"
     dynamodb_table = "fastcampus-my-dynamodb-state-lock"
     encrypt        = true
     key            = "remote"
-    region         = "ap-northeast-2"
+    region         = "us-east-1"
   }
 }

@@ -44,3 +44,4 @@ override.tf.json
 # example: *tfplan*
 .terraform.lock.hcl
 devqa/.terraformChk.cmd.un~
+.env
