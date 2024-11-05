@@ -1,3 +1,6 @@
+# aws configure --profile facam을 통해 key와 region을 직접입력
+# MFA도 고려!
+
 provider "aws" {
 
   region  = "us-east-1"
