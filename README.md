@@ -1,5 +1,9 @@
 # facam-terraform
 
+## 시스템 아키텍처
+![](img/시스템아키텍처.png)
+
+
 ## 사전작업
 - us-east-1 region에서 일괄작업
 - AWS S3 버킷 만들어 놓기: "fastcampus-hw-terraform"
