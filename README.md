@@ -1,5 +1,11 @@
 # facam-terraform
 
+## 사전작업
+- us-east-1 region에서 일괄작업
+- AWS S3 버킷 만들어 놓기: "fastcampus-hw-terraform"
+- AWS DynamoDB 만들어 놓기: "fastcampus-hw-dynamodb-state-lock"
+
+
 ## 설치
 ```bash
 brew install terraform
